@@ -1,0 +1,44 @@
+  body {
+  	margin: 0 !important;
+    padding: 0 !important;
+    background-image:url(concrete_seamless.png);
+    color:#2f2f2f;
+    height:100%;
+    width:100%;
+  }
+  header{
+  	display:block;
+  	width:100%;
+  	height:50px;
+  	border-bottom:1px solid #AEAEAE;
+  	background-image:url(dark_embroidery.png);
+    font-family: Impact;
+    letter-spacing:2px;
+  }
+  header ul{
+    list-style-type: none;
+    float:right;
+  }
+  header li{
+  	display:inline;
+  	margin-right:20px;
+
+  }
+  header li a{
+  	text-decoration:none;
+  	color:#FEFEFE;
+  }
+  header img{
+  	width:211px;
+  	margin-left:20px;
+
+  }
+  .post{
+    font-family:"helveticaneue-light","helvetica neue",Helvetica,Arial,Sans-Serif;
+    background-color:#FEFEFE;
+    padding:20px;
+    margin:10px 250px 10px 10px;
+  }
+  .campaignvid{
+    margin:20px ;
+  }
