@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Kanye's Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/snake.css" />
+    </head>
+    <body>
+        <header>
+           <img src="../src/KanyeWebLogo.png" alt="logo" />
+           <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="campaign.html">Presidential Campaign</a></li>
+                <li><a href="games.html">Kanye Games</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Yeezys</a></li>
+                <li><a href="#">Archive</a></li>
+                <li><a href="abouttheauthor.html">About The Author</a></li>
+            </ul>
+        </header>
+        <div id="game-area" tabindex="0"></div>
+        <script type="text/javascript" src="../js/snake.js"></script>
+        <script type="text/javascript">
+        var mySnakeBoard = new SNAKE.Board(  {
+            boardContainer: "game-area",
+            fullScreen: true
+        });    
+        </script>
+    </body>
+</html>
