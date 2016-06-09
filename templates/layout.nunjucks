@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Kanye's Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% block css %}
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        {% endblock %}
+
+    </head>
+    <body>  
+<header>
+           <img src="src/KanyeWebLogo.png" alt="logo">
+           <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="campaign.html">Presidential Campaign</a></li>
+            <li><a href="games.html">Kanye Snake</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Yeezys</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="abouttheauthor.html">About The Author</a></li>
+           </ul>
+ </header>
+       {% block content %}
+       {% endblock %}
+        <script src="js/handlebars.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

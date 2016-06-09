@@ -1,0 +1,14 @@
+{% extends "layout.nunjucks" %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="css/snake.css">
+{% endblock %}
+{% block content %}
+  <div id="game-area" tabindex="0"></div>
+        <script type="text/javascript" src="js/snake.js"></script>
+        <script type="text/javascript">
+        var mySnakeBoard = new SNAKE.Board(  {
+            boardContainer: "game-area",
+            fullScreen: true
+        });   
+        </script>
+{% endblock %}
