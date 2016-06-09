@@ -1,0 +1,4 @@
+{% extends "layout.nunjucks" %}
+{% block content %}
+<p> im a homie mc jc uc im a fly peace loving ninja like me</p>
+{% endblock %}

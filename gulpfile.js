@@ -6,7 +6,7 @@ gulp.task('default', function(){
 });
 
 gulp.task('nunjucks', function() {
-	return gulp.src('templates/index.nunjucks')
+	return gulp.src('templates/*.nunjucks')
 				.pipe(nunjucksRender({
 					path:  ['templates/']
 				}))
